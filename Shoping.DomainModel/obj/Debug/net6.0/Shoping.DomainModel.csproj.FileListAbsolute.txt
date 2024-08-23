@@ -1,0 +1,17 @@
+C:\Users\IHC\source\repos\EShopMashtiMahdi\Shoping.DomainModel\bin\Debug\net6.0\Shoping.DomainModel.deps.json
+C:\Users\IHC\source\repos\EShopMashtiMahdi\Shoping.DomainModel\bin\Debug\net6.0\Shoping.DomainModel.runtimeconfig.json
+C:\Users\IHC\source\repos\EShopMashtiMahdi\Shoping.DomainModel\bin\Debug\net6.0\Shoping.DomainModel.dll
+C:\Users\IHC\source\repos\EShopMashtiMahdi\Shoping.DomainModel\bin\Debug\net6.0\Shoping.DomainModel.pdb
+C:\Users\IHC\source\repos\EShopMashtiMahdi\Shoping.DomainModel\obj\Debug\net6.0\Shoping.DomainModel.csproj.AssemblyReference.cache
+C:\Users\IHC\source\repos\EShopMashtiMahdi\Shoping.DomainModel\obj\Debug\net6.0\Shoping.DomainModel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IHC\source\repos\EShopMashtiMahdi\Shoping.DomainModel\obj\Debug\net6.0\Shoping.DomainModel.AssemblyInfoInputs.cache
+C:\Users\IHC\source\repos\EShopMashtiMahdi\Shoping.DomainModel\obj\Debug\net6.0\Shoping.DomainModel.AssemblyInfo.cs
+C:\Users\IHC\source\repos\EShopMashtiMahdi\Shoping.DomainModel\obj\Debug\net6.0\Shoping.DomainModel.csproj.CoreCompileInputs.cache
+C:\Users\IHC\source\repos\EShopMashtiMahdi\Shoping.DomainModel\obj\Debug\net6.0\Shoping.DomainModel.dll
+C:\Users\IHC\source\repos\EShopMashtiMahdi\Shoping.DomainModel\obj\Debug\net6.0\refint\Shoping.DomainModel.dll
+C:\Users\IHC\source\repos\EShopMashtiMahdi\Shoping.DomainModel\obj\Debug\net6.0\Shoping.DomainModel.pdb
+C:\Users\IHC\source\repos\EShopMashtiMahdi\Shoping.DomainModel\obj\Debug\net6.0\Shoping.DomainModel.genruntimeconfig.cache
+C:\Users\IHC\source\repos\EShopMashtiMahdi\Shoping.DomainModel\obj\Debug\net6.0\ref\Shoping.DomainModel.dll
+C:\Users\IHC\source\repos\EShopMashtiMahdi\Shoping.DomainModel\bin\Debug\net6.0\FrameWork.dll
+C:\Users\IHC\source\repos\EShopMashtiMahdi\Shoping.DomainModel\bin\Debug\net6.0\FrameWork.pdb
+C:\Users\IHC\source\repos\EShopMashtiMahdi\Shoping.DomainModel\obj\Debug\net6.0\Shoping.DomainModel.csproj.CopyComplete

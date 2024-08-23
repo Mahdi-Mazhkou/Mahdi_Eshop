@@ -1,0 +1,70 @@
+﻿@model Shoping.DomainModel.BusinessModel.Product.ProductSearchModel;
+@{
+    SelectList categoryDropDown = (SelectList)ViewBag.categoryDropDown;
+    SelectList supplierDropDown = (SelectList)ViewBag.supplierDropDown;
+ }
+    <form method="get" asp-action="Index" asp-controller="ProductManagement" id="frmSearch">
+    <table class="table table-bordered table-hover table-striped table-sm">
+        <tr>
+            <td>
+                <label for="CategotyID">CategotyID</label>
+            </td>
+            <td>
+                <select  asp-items="categoryDropDown" class="form-control" asp-for="CategotyID">
+
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="SupplierID">SupplierID</label>
+            </td>
+            <td>
+                <select asp-items="supplierDropDown" class="form-control" asp-for="SupplierID" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="UnitPriceFrom">UnitPriceFrom</label>
+            </td>
+            <td>
+                <input type="text" asp-for="UnitPriceFrom" class="form-control" placeholder="UnitPriceFrom" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="UnitPriceTo">UnitPriceTo</label>
+            </td>
+            <td>
+                <input type="text" asp-for="UnitPriceTo" class="form-control" placeholder="UnitPriceTo" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="ProductName">ProductName</label>
+            </td>
+            <td>
+                <input type="text" asp-for="ProductName" class="form-control" placeholder="ProductName" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="Slug">Slug</label>
+            </td>
+            <td>
+                <input type="text" asp-for="Slug" class="form-control" placeholder="Slug" />
+            </td>
+        </tr>
+        <tr>
+            <td class="text-center" colspan="2">
+                <input type="submit" value="Search" class="btn btn-success" />
+                <a asp-action="Index" asp-controller="ProductManagement" class="btn btn-primary">Remove Filter</a>
+                <span asp-action="AddNew" asp-controller="ProductManagement" class="btn btn-primary" id="btnAddNewIndex">Add New</span>
+            </td>
+        </tr>
+    </table>
+    <div id="dvContent">
+       @await Component.InvokeAsync("ProductList", this.Model)
+    </div>
+  
+</form>

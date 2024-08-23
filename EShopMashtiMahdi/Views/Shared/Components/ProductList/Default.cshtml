@@ -1,0 +1,67 @@
+﻿@model EShopMashtiMahdi.Models.ProductListAndSearchModel;
+@{
+    var productList = Model.productListItems;
+    Shoping.DomainModel.BusinessModel.Product.ProductSearchModel sm = Model.sm;  
+}
+
+@if(Model==null || productList.Count == 0)
+{
+      <h1 class="text-center text-danger">
+          There Is No Product
+    </h1>
+
+}
+else
+{
+    <table class="table table-bordered table-hover table-striped table-sm">
+        <tr>
+            <td>ProductName</td>
+            <td>CategoryName</td>
+            <td>SupplierName</td>
+            <td>HasRelatedOrder</td>
+            <td>UnitPrice</td>
+            <td>Slug</td>
+            <td>Edit</td>
+            <td>Delete</td>
+            <td>Manage Picture Galery</td>
+        </tr>
+        @foreach (var item in productList)
+        {
+            <tr>
+                <td>@item.ProductName</td>
+                <td>@item.CategoryName</td>
+                <td>@item.SupplierName</td>
+                <td>@item.HasRelatedOrder</td>
+                <td>@item.UnitPrice</td>
+                <td>@item.Slug</td>
+                <td>
+                    @Html.ActionLink("Edit","Edit","ProductManagement",new {ProductID=item.ProductID},new{@class="btn btn-primary"})
+
+                </td>
+                <td>
+                    <span class="btn btn-danger btn-sm btnDeleteProduct" data-id="@item.ProductID">
+                        Delete
+                    </span>
+
+                </td>
+                <td>Manage Picture Galery</td>
+            </tr>
+        } 
+        <tr>
+            <td colspan="9" class="text-center">
+                <nav aria-label="Page navigation example">
+                    <ul class="pagination">
+                        @for (int i = 0; i <sm.PageCount ; i++)
+                        {
+                            sm.PageIndex = i;
+                            <li class="page-item">
+                                @Html.ActionLink((i+1).ToString(),"Index","Productmanagement",sm,new{@class="page-link"});
+                            </li>
+                        }
+                    </ul>
+                </nav>
+            </td>
+        </tr>
+
+    </table>
+}

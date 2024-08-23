@@ -1,0 +1,48 @@
+﻿@model Shoping.DomainModel.BusinessModel.Supplier.SupplierAddEditModel;
+
+<form asp-action="AddNew" method="post">
+    <table class="table table-bordered table-hover table-striped table-sm">
+        @if (TempData["ErrorMessage"] != null)
+        {
+            <tr>
+                <td colspan="2">
+                    <h2 class="text-danger text-center">
+                        @TempData["ErrorMessage"];
+                    </h2>
+                </td>
+            </tr>
+        }
+        else
+        {
+            <tr>
+                <td>
+                    SupplierName
+                </td>
+                <td>
+                    <input type="text" asp-for="SupplierName" class="form-control">
+                    <span class="text-danger" asp-validation-for="SupplierName"/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Supplier Description
+                </td>
+                <td>
+                    <input type="text" asp-for="SupplierDescription" class="form-control">
+                    <span class="text-danger" asp-validation-for="SupplierDescription" />
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="submit" value="Add New" class="btn btn-primary"/>
+                    <a asp-controller="SupplierManagement" asp-action="Index" class="btn btn-warning">Return</a>
+                </td>
+                <td>
+
+                </td>
+            </tr>
+        }
+
+
+    </table>
+</form>

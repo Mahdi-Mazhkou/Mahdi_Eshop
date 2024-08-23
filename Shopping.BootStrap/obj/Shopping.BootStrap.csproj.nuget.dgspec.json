@@ -1,0 +1,517 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\IHC\\source\\repos\\EShopMashtiMahdi\\Shopping.BootStrap\\Shopping.BootStrap.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\IHC\\source\\repos\\EShopMashtiMahdi\\DataAccess.Shopping.EF\\DataAccess.Shopping.EF.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\IHC\\source\\repos\\EShopMashtiMahdi\\DataAccess.Shopping.EF\\DataAccess.Shopping.EF.csproj",
+        "projectName": "DataAccess.Shopping.EF",
+        "projectPath": "C:\\Users\\IHC\\source\\repos\\EShopMashtiMahdi\\DataAccess.Shopping.EF\\DataAccess.Shopping.EF.csproj",
+        "packagesPath": "C:\\Users\\IHC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\IHC\\source\\repos\\EShopMashtiMahdi\\DataAccess.Shopping.EF\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\IHC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\IHC\\source\\repos\\EShopMashtiMahdi\\Shoping.DomainModel\\Shoping.DomainModel.csproj": {
+                "projectPath": "C:\\Users\\IHC\\source\\repos\\EShopMashtiMahdi\\Shoping.DomainModel\\Shoping.DomainModel.csproj"
+              },
+              "C:\\Users\\IHC\\source\\repos\\EShopMashtiMahdi\\Shopping.DataAccessServiceContract\\Shopping.DataAccessServiceContract.csproj": {
+                "projectPath": "C:\\Users\\IHC\\source\\repos\\EShopMashtiMahdi\\Shopping.DataAccessServiceContract\\Shopping.DataAccessServiceContract.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.20, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.20, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.20, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.20, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\IHC\\source\\repos\\EShopMashtiMahdi\\FrameWork\\FrameWork.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\IHC\\source\\repos\\EShopMashtiMahdi\\FrameWork\\FrameWork.csproj",
+        "projectName": "FrameWork",
+        "projectPath": "C:\\Users\\IHC\\source\\repos\\EShopMashtiMahdi\\FrameWork\\FrameWork.csproj",
+        "packagesPath": "C:\\Users\\IHC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\IHC\\source\\repos\\EShopMashtiMahdi\\FrameWork\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\IHC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\IHC\\source\\repos\\EShopMashtiMahdi\\Shoping.DomainModel\\Shoping.DomainModel.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\IHC\\source\\repos\\EShopMashtiMahdi\\Shoping.DomainModel\\Shoping.DomainModel.csproj",
+        "projectName": "Shoping.DomainModel",
+        "projectPath": "C:\\Users\\IHC\\source\\repos\\EShopMashtiMahdi\\Shoping.DomainModel\\Shoping.DomainModel.csproj",
+        "packagesPath": "C:\\Users\\IHC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\IHC\\source\\repos\\EShopMashtiMahdi\\Shoping.DomainModel\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\IHC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\IHC\\source\\repos\\EShopMashtiMahdi\\FrameWork\\FrameWork.csproj": {
+                "projectPath": "C:\\Users\\IHC\\source\\repos\\EShopMashtiMahdi\\FrameWork\\FrameWork.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.20, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.20, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.20, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.20, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\IHC\\source\\repos\\EShopMashtiMahdi\\Shopping.ApplicationServiceContract\\Shopping.ApplicationServiceContract.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\IHC\\source\\repos\\EShopMashtiMahdi\\Shopping.ApplicationServiceContract\\Shopping.ApplicationServiceContract.csproj",
+        "projectName": "Shopping.ApplicationServiceContract",
+        "projectPath": "C:\\Users\\IHC\\source\\repos\\EShopMashtiMahdi\\Shopping.ApplicationServiceContract\\Shopping.ApplicationServiceContract.csproj",
+        "packagesPath": "C:\\Users\\IHC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\IHC\\source\\repos\\EShopMashtiMahdi\\Shopping.ApplicationServiceContract\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\IHC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\IHC\\source\\repos\\EShopMashtiMahdi\\FrameWork\\FrameWork.csproj": {
+                "projectPath": "C:\\Users\\IHC\\source\\repos\\EShopMashtiMahdi\\FrameWork\\FrameWork.csproj"
+              },
+              "C:\\Users\\IHC\\source\\repos\\EShopMashtiMahdi\\Shoping.DomainModel\\Shoping.DomainModel.csproj": {
+                "projectPath": "C:\\Users\\IHC\\source\\repos\\EShopMashtiMahdi\\Shoping.DomainModel\\Shoping.DomainModel.csproj"
+              },
+              "C:\\Users\\IHC\\source\\repos\\EShopMashtiMahdi\\Shopping.DataAccessServiceContract\\Shopping.DataAccessServiceContract.csproj": {
+                "projectPath": "C:\\Users\\IHC\\source\\repos\\EShopMashtiMahdi\\Shopping.DataAccessServiceContract\\Shopping.DataAccessServiceContract.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\IHC\\source\\repos\\EShopMashtiMahdi\\Shopping.Application\\Shopping.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\IHC\\source\\repos\\EShopMashtiMahdi\\Shopping.Application\\Shopping.Application.csproj",
+        "projectName": "Shopping.Application",
+        "projectPath": "C:\\Users\\IHC\\source\\repos\\EShopMashtiMahdi\\Shopping.Application\\Shopping.Application.csproj",
+        "packagesPath": "C:\\Users\\IHC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\IHC\\source\\repos\\EShopMashtiMahdi\\Shopping.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\IHC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\IHC\\source\\repos\\EShopMashtiMahdi\\FrameWork\\FrameWork.csproj": {
+                "projectPath": "C:\\Users\\IHC\\source\\repos\\EShopMashtiMahdi\\FrameWork\\FrameWork.csproj"
+              },
+              "C:\\Users\\IHC\\source\\repos\\EShopMashtiMahdi\\Shoping.DomainModel\\Shoping.DomainModel.csproj": {
+                "projectPath": "C:\\Users\\IHC\\source\\repos\\EShopMashtiMahdi\\Shoping.DomainModel\\Shoping.DomainModel.csproj"
+              },
+              "C:\\Users\\IHC\\source\\repos\\EShopMashtiMahdi\\Shopping.ApplicationServiceContract\\Shopping.ApplicationServiceContract.csproj": {
+                "projectPath": "C:\\Users\\IHC\\source\\repos\\EShopMashtiMahdi\\Shopping.ApplicationServiceContract\\Shopping.ApplicationServiceContract.csproj"
+              },
+              "C:\\Users\\IHC\\source\\repos\\EShopMashtiMahdi\\Shopping.DataAccessServiceContract\\Shopping.DataAccessServiceContract.csproj": {
+                "projectPath": "C:\\Users\\IHC\\source\\repos\\EShopMashtiMahdi\\Shopping.DataAccessServiceContract\\Shopping.DataAccessServiceContract.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\IHC\\source\\repos\\EShopMashtiMahdi\\Shopping.BootStrap\\Shopping.BootStrap.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\IHC\\source\\repos\\EShopMashtiMahdi\\Shopping.BootStrap\\Shopping.BootStrap.csproj",
+        "projectName": "Shopping.BootStrap",
+        "projectPath": "C:\\Users\\IHC\\source\\repos\\EShopMashtiMahdi\\Shopping.BootStrap\\Shopping.BootStrap.csproj",
+        "packagesPath": "C:\\Users\\IHC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\IHC\\source\\repos\\EShopMashtiMahdi\\Shopping.BootStrap\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\IHC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\IHC\\source\\repos\\EShopMashtiMahdi\\DataAccess.Shopping.EF\\DataAccess.Shopping.EF.csproj": {
+                "projectPath": "C:\\Users\\IHC\\source\\repos\\EShopMashtiMahdi\\DataAccess.Shopping.EF\\DataAccess.Shopping.EF.csproj"
+              },
+              "C:\\Users\\IHC\\source\\repos\\EShopMashtiMahdi\\Shoping.DomainModel\\Shoping.DomainModel.csproj": {
+                "projectPath": "C:\\Users\\IHC\\source\\repos\\EShopMashtiMahdi\\Shoping.DomainModel\\Shoping.DomainModel.csproj"
+              },
+              "C:\\Users\\IHC\\source\\repos\\EShopMashtiMahdi\\Shopping.ApplicationServiceContract\\Shopping.ApplicationServiceContract.csproj": {
+                "projectPath": "C:\\Users\\IHC\\source\\repos\\EShopMashtiMahdi\\Shopping.ApplicationServiceContract\\Shopping.ApplicationServiceContract.csproj"
+              },
+              "C:\\Users\\IHC\\source\\repos\\EShopMashtiMahdi\\Shopping.Application\\Shopping.Application.csproj": {
+                "projectPath": "C:\\Users\\IHC\\source\\repos\\EShopMashtiMahdi\\Shopping.Application\\Shopping.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.20, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.20, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.20, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.20, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\IHC\\source\\repos\\EShopMashtiMahdi\\Shopping.DataAccessServiceContract\\Shopping.DataAccessServiceContract.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\IHC\\source\\repos\\EShopMashtiMahdi\\Shopping.DataAccessServiceContract\\Shopping.DataAccessServiceContract.csproj",
+        "projectName": "Shopping.DataAccessServiceContract",
+        "projectPath": "C:\\Users\\IHC\\source\\repos\\EShopMashtiMahdi\\Shopping.DataAccessServiceContract\\Shopping.DataAccessServiceContract.csproj",
+        "packagesPath": "C:\\Users\\IHC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\IHC\\source\\repos\\EShopMashtiMahdi\\Shopping.DataAccessServiceContract\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\IHC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\IHC\\source\\repos\\EShopMashtiMahdi\\FrameWork\\FrameWork.csproj": {
+                "projectPath": "C:\\Users\\IHC\\source\\repos\\EShopMashtiMahdi\\FrameWork\\FrameWork.csproj"
+              },
+              "C:\\Users\\IHC\\source\\repos\\EShopMashtiMahdi\\Shoping.DomainModel\\Shoping.DomainModel.csproj": {
+                "projectPath": "C:\\Users\\IHC\\source\\repos\\EShopMashtiMahdi\\Shoping.DomainModel\\Shoping.DomainModel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

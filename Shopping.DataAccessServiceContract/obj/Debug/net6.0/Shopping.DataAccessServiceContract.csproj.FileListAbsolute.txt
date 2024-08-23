@@ -1,0 +1,17 @@
+C:\Users\IHC\source\repos\EShopMashtiMahdi\Shopping.DataAccessServiceContract\bin\Debug\net6.0\Shopping.DataAccessServiceContract.deps.json
+C:\Users\IHC\source\repos\EShopMashtiMahdi\Shopping.DataAccessServiceContract\bin\Debug\net6.0\Shopping.DataAccessServiceContract.dll
+C:\Users\IHC\source\repos\EShopMashtiMahdi\Shopping.DataAccessServiceContract\bin\Debug\net6.0\Shopping.DataAccessServiceContract.pdb
+C:\Users\IHC\source\repos\EShopMashtiMahdi\Shopping.DataAccessServiceContract\bin\Debug\net6.0\FrameWork.dll
+C:\Users\IHC\source\repos\EShopMashtiMahdi\Shopping.DataAccessServiceContract\bin\Debug\net6.0\FrameWork.pdb
+C:\Users\IHC\source\repos\EShopMashtiMahdi\Shopping.DataAccessServiceContract\obj\Debug\net6.0\Shopping.DataAccessServiceContract.csproj.AssemblyReference.cache
+C:\Users\IHC\source\repos\EShopMashtiMahdi\Shopping.DataAccessServiceContract\obj\Debug\net6.0\Shopping.DataAccessServiceContract.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IHC\source\repos\EShopMashtiMahdi\Shopping.DataAccessServiceContract\obj\Debug\net6.0\Shopping.DataAccessServiceContract.AssemblyInfoInputs.cache
+C:\Users\IHC\source\repos\EShopMashtiMahdi\Shopping.DataAccessServiceContract\obj\Debug\net6.0\Shopping.DataAccessServiceContract.AssemblyInfo.cs
+C:\Users\IHC\source\repos\EShopMashtiMahdi\Shopping.DataAccessServiceContract\obj\Debug\net6.0\Shopping.DataAccessServiceContract.csproj.CoreCompileInputs.cache
+C:\Users\IHC\source\repos\EShopMashtiMahdi\Shopping.DataAccessServiceContract\obj\Debug\net6.0\Shopping.DataAccessServiceContract.csproj.CopyComplete
+C:\Users\IHC\source\repos\EShopMashtiMahdi\Shopping.DataAccessServiceContract\obj\Debug\net6.0\Shopping.DataAccessServiceContract.dll
+C:\Users\IHC\source\repos\EShopMashtiMahdi\Shopping.DataAccessServiceContract\obj\Debug\net6.0\refint\Shopping.DataAccessServiceContract.dll
+C:\Users\IHC\source\repos\EShopMashtiMahdi\Shopping.DataAccessServiceContract\obj\Debug\net6.0\Shopping.DataAccessServiceContract.pdb
+C:\Users\IHC\source\repos\EShopMashtiMahdi\Shopping.DataAccessServiceContract\obj\Debug\net6.0\ref\Shopping.DataAccessServiceContract.dll
+C:\Users\IHC\source\repos\EShopMashtiMahdi\Shopping.DataAccessServiceContract\bin\Debug\net6.0\Shoping.DomainModel.dll
+C:\Users\IHC\source\repos\EShopMashtiMahdi\Shopping.DataAccessServiceContract\bin\Debug\net6.0\Shoping.DomainModel.pdb

@@ -1,0 +1,103 @@
+﻿@model EShopMashtiMahdi.Views.ViewModel.Products.ProductAddViewEditModel;
+@{
+    Layout = null;
+    SelectList categoryDropDown = (SelectList)ViewBag.categoryDropDown;
+    SelectList supplierDropDown = (SelectList)ViewBag.supplierDropDown;
+}
+<form asp-action="AddNew" asp-controller="ProductManagement"  method="post" enctype="multipart/form-data">
+    <table class="table table-bordered table-hover table-striped ">
+        <tr>
+            <td>
+                ProductName
+            </td>
+            <td>
+                <input type="text" asp-for="ProductName" class="form-control" />
+            </td>
+
+        </tr>
+        <tr>
+            <td>
+                UnitPrice
+            </td>
+            <td>
+                <input type="text" asp-for="UnitPrice" class="form-control" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="CategoryID">Category</label>
+            </td>
+            <td>
+                <select asp-for="CategoryID" asp-items="categoryDropDown" class="form-control"></select>
+            </td>
+
+        </tr>
+        <tr>
+            <td>
+                <label for="SupplierID">Supplier</label>
+            </td>
+            <td>
+                <select asp-for="SupplierID" asp-items="supplierDropDown" class="form-control"></select>
+            </td>
+
+        </tr>
+        <tr>
+            <td>
+                Slug
+            </td>
+            <td>
+                <input type="text" asp-for="Slug" class="form-control" />
+            </td>
+
+        </tr>
+        <tr>
+            <td>
+                PageTitle
+            </td>
+            <td>
+                <input type="text" asp-for="PageTitle" class="form-control" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                MetaKeyword
+            </td>
+            <td>
+                <input type="text" asp-for="MetaKeyword" class="form-control" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                MetaDescription
+            </td>
+            <td>
+                <input type="text" asp-for="MetaDescription" class="form-control" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                JSONLDInformation
+            </td>
+            <td>
+                <input type="text" asp-for="JSONLDInformation" class="form-control" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Image
+            </td>
+            <td>
+                <input type="file" asp-for="Image" class="form-control" />
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" class="text-center">
+                <input type="submit" name="name" value="AddNew"/>
+                <span class="btn btn-danger" id="btnCancel">Cancel</span>
+            </td>
+
+        </tr>
+    </table>
+
+</form>
+
